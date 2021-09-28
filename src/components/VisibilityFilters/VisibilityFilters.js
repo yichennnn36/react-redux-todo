@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { FilterButtonBlock, ModeFilterButton, TheClearAllButton } from './VisibilityFiltersStyle';
 import { setFilter, clearAllCompleted } from '../../redux/actions';
-import { VISIBILITY_FILTERS } from '../../constants';
+import { VISIBILITY_FILTERS } from '../../constants/constants';
 import { selectFilters } from '../../redux/selectors';
 
 const VisibilityFilters = () => {
